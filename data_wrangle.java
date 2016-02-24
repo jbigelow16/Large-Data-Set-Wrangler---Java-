@@ -11,6 +11,7 @@ import java.util.StringTokenizer;
 
 /**	
  * !!!purpose of program is to print ENTIRE HashMap rather than just a set!!!
+ * ALSO, program enables users to EASILY add additional HashMaps for when data sets are multidemensional
  * -program uploads two CSV files: 1st has integer keys paired with a value
  * 		& 2nd uploads just the integer keys
  * 	-2nd CSV becomes ArrayList - purpose for facilitation printing
@@ -31,7 +32,7 @@ public class data_wrangle {
 		
 /**
  * jmap and csvNext are only necessary if the data set has more than two columns
- * likewise, the program is flexible—user can add more maps i.e. kmap, lmap, etc. for larger data sets
+ * likewise, the program is flexibleâ€”user can add more maps i.e. kmap, lmap, etc. for larger data sets
  *  -to expand for larger data sets...
  *  	+ add ***String csvMore = "Book1.csv"***
  *  	+ add ***kmap... ***
